@@ -3,12 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola mundo.</title>
+    <meta name="Description" content="Herramienta educativa para clasificar numeros en conjuntos naturales, enteros y irracionales y resolver operaciones aritmeticas con explicaciones paso a paso">
+    <link rel="styleshett" href="Css/styles.css">
+    <title>Razonamiento Cuantitativo 1.</title>
 
 </head>
 <body>
-    <p>Hola mundo ;)</p>
-    <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quos sunt quae voluptatum facilis magnam, beatae optio. Assumenda vitae omnis quo quisquam provident ex, delectus eveniet hic quibusdam consectetur enim?</p>
+    <div class="Principal">
+        <nav class="opciones-nav" role="tablist">
+            <button class="tab-boton" role="tab">
+                <span class="nav-tab-text">Clasificar Conjuntos de numeros.</span>
+            </button>
+            <button class="tab-boton" role="tab">
+                <span class="nav-tab-text">Operaciones aritmeticas.</span>
+            </button>
+            <button class="tab-boton" role="tab">
+                <span class="nav-tab-text">:)</span>
+            </button>
+
+
+
+        </nav>
+
+        <section id="panel-clasificar" class="tab-panel active">
+            <div class="card">
+                <h2>Clasificador de conjunto de numeros</h2>
+                <p>Ingresa un numero y selecciona un conjunto para verificar si pertenece a el</p>
+            </div>
+            <input type="text" id="numero.input">
+
+            <select name="" id="select-conjuntos">
+                <option value="naturales"> Naturales</option>
+                <option value="enteros">Enteros </option>
+                <option value="racionales"> Racionales </option>
+            </select>
+        </section>
+
+
+        <h1>Hola mundo ;)</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quos sunt quae voluptatum facilis magnam, beatae optio. Assumenda vitae omnis quo quisquam provident ex, delectus eveniet hic quibusdam consectetur enim?</p>
+    </div>
 </body>
 </html>
